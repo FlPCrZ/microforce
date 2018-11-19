@@ -1,0 +1,23 @@
+{
+    "name": "FlPCrZ/microforce",
+    "description": "Youhouuu",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Filipe Cruz",
+            "email": "cruzmariofilipe@gmail.com.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+    	"symfony/routing": "^4.0",
+        "symfony/templating": "^4.0",
+        "symfony/http-foundation": "^4.0"
+    },
+    "autoload": {
+    	"psr-4": {
+    		"MicroForce\\": "src/"
+    	}
+    }
+}
